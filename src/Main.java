@@ -1,7 +1,15 @@
 import java.util.Scanner;
 
+/**
+ * This class calculates the n-th term of the Fibonacci sequence using recursion.
+ */
 public class Main {
-
+    /**
+     * Calculates the n-th Fibonacci sequence number using recursion
+     *
+     * @param n The index of the desired Fibonacci number.
+     * @return The n-th Fibonacci number.
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
@@ -10,6 +18,11 @@ public class Main {
     }
 }
 
+    /**
+     * The main method for getting user input and printing the Fibonacci number.
+     *
+     * @param args Command-line arguments (not used).
+     */
     public static void main(String[] args) {
     int n;
     Scanner scnr = new Scanner(System.in);
